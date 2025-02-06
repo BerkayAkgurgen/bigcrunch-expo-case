@@ -3,7 +3,7 @@ export const headerStyles = {
     width: "100%",
     justifyContent: "space-between",
     flexDirection: "row",
-    position: "relative",
+    position: "fixed",
   },
   headerAvatar: {
     width: 35,

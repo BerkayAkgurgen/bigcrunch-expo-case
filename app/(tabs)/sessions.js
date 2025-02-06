@@ -1,29 +1,25 @@
-import { StyleSheet, ScrollView, View, Text } from "react-native";
+import { SafeAreaView, ScrollView, View } from "react-native";
+import { Header } from "../../components";
+import SessionsList from "../../components/sessions/SessionsList";
+import UpcomingCard from "../../components/sessions/UpcomingCard";
+import { indexStyles } from "./style/index.style";
 
 const Sessions = () => {
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Explore!</Text>
-      </View>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      style={indexStyles.appBackground}
+    >
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={indexStyles.wrapper}
+      >
+        <Header />
+        <UpcomingCard />
+        <SessionsList />
+      </ScrollView>
     </ScrollView>
   );
 };
 
 export default Sessions;
-
-const styles = StyleSheet.create({
-  wrapper: {
-    backgroundColor: "#ffffff",
-  },
-  titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  title: {
-    fontSize: 24,
-    fontFamily: "Epilogue",
-    fontWeight: "regular",
-  },
-});

@@ -1,27 +1,37 @@
-export const bookCardStyles = {
+export const upcomingCardStyles = {
   rowCard: {
     flexDirection: "row",
   },
+  centerIcon: {
+    alignItems: "center",
+  },
   flex: { flex: 1 },
-  sessionsTitle: {
+  upcomingTitle: {
     fontFamily: "Epilogue",
     fontWeight: 800,
     fontSize: 22,
     color: "#573926",
   },
-  sessionsDesc: {
-    fontFamily: "Epilogue",
+  upcomingDesc: {
+    fontFamily: "Rubik",
     fontWeight: 400,
     fontSize: 12,
     color: "#573926",
-    marginTop: 8,
+    marginTop: 6,
+    marginBottom: 6,
+  },
+  upcomingDate: {
+    fontFamily: "Rubik",
+    fontWeight: 700,
+    fontSize: 12,
+    color: "#573926",
     marginBottom: 14,
   },
-  sessionsBook: {
+  upcomingBook: {
     fontFamily: "Epilogue",
     fontWeight: 700,
     fontSize: 16,
     color: "#FE8235",
+    marginRight: 8,
   },
-  dateIcon: { marginTop: 3, marginLeft: 6 },
 };

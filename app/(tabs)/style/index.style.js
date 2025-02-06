@@ -6,6 +6,9 @@ export const indexStyles = {
     paddingBottom: 0,
     flex: 1,
   },
+  appBackground: {
+    backgroundColor: "#FBFBFB",
+  },
   titleContainer: {
     marginTop: 20,
   },

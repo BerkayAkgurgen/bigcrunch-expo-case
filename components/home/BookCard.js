@@ -14,7 +14,7 @@ const BookCard = () => {
           </Text>
           <View style={bookCardStyles.rowCard}>
             <Text style={bookCardStyles.sessionsBook}>Book Now</Text>
-            <DateIcon />
+            <DateIcon style={bookCardStyles.dateIcon} />
           </View>
         </View>
         <MeetupIcon />

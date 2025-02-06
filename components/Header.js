@@ -1,12 +1,13 @@
-import { Image, Text, View } from "react-native";
-import Avatar from "../assets/images/avatar.png";
+import { Text, View } from "react-native";
 import { RingIcon } from "../assets/icons";
 import { headerStyles } from "./style/Header.style";
+import AvatarCircle from "./Avatar";
+import { Avatar } from "../assets/images";
 
 const Header = () => {
   return (
     <View style={headerStyles.headerWrapper}>
-      <Image style={headerStyles.headerAvatar} source={Avatar} />
+      <AvatarCircle AvatarImage={Avatar} />
       <View style={{ position: "relative" }}>
         <RingIcon />
         <View style={headerStyles.ringWrapper}>
