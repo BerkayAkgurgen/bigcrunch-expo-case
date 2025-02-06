@@ -15,3 +15,7 @@ export { default as LibraryIcon } from "./library_icon";
 export { default as QuotesIcon } from "./quotes_icon";
 export { default as MeditationIcon } from "./meditation_icon";
 export { default as RightArrowIcon } from "./right_arrow_icon";
+export { default as PlayIcon } from "./play_icon";
+export { default as FaSortIcon } from "./fa_sort_icon";
+export { default as ArrowDownIcon } from "./arrow_down_icon";
+export { default as ClockIcon } from "./clock_icon";

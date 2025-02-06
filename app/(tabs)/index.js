@@ -1,5 +1,5 @@
 import { ScrollView, View, Text } from "react-native";
-import { Home } from "../../components";
+import { Header } from "../../components";
 import { indexStyles } from "./style/index.style";
 import {
   BookCard,
@@ -10,12 +10,15 @@ import {
 
 const HomeScreen = () => {
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      style={indexStyles.appBackground}
+    >
       <ScrollView
         showsVerticalScrollIndicator={false}
         style={indexStyles.wrapper}
       >
-        <Home />
+        <Header />
         <View style={indexStyles.titleContainer}>
           <Text style={indexStyles.title}>
             Good Afternoon
