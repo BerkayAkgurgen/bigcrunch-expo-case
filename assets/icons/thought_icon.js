@@ -1,6 +1,6 @@
 import Svg, { Path } from "react-native-svg";
 
-const ThoughIcon = ({
+const ThoughtIcon = ({
   color = "#D9D8D8",
   activeColor = "#FE8235",
   focused,
@@ -32,4 +32,4 @@ const ThoughIcon = ({
   );
 };
 
-export default ThoughIcon;
+export default ThoughtIcon;

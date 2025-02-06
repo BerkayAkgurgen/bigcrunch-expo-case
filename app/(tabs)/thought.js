@@ -1,16 +1,16 @@
 import { StyleSheet, ScrollView, View, Text } from "react-native";
 
-const Though = () => {
+const Thought = () => {
   return (
     <ScrollView style={styles.wrapper}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Though!</Text>
+        <Text style={styles.title}>Welcome Thought!</Text>
       </View>
     </ScrollView>
   );
 };
 
-export default Though;
+export default Thought;
 
 const styles = StyleSheet.create({
   wrapper: {
