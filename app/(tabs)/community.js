@@ -1,14 +1,16 @@
 import { StyleSheet, ScrollView, View, Text } from "react-native";
 
-export default function TabTwoScreen() {
+const Community = () => {
   return (
     <ScrollView style={styles.wrapper}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Explore!</Text>
+        <Text style={styles.title}>Welcome Community!</Text>
       </View>
     </ScrollView>
   );
-}
+};
+
+export default Community;
 
 const styles = StyleSheet.create({
   wrapper: {
