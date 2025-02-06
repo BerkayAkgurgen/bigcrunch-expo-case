@@ -1,29 +1,37 @@
-import { StyleSheet, ScrollView, View, Text } from "react-native";
+import { ScrollView, View, Text } from "react-native";
+import { Home } from "../../components";
+import { indexStyles } from "./style/index.style";
+import {
+  BookCard,
+  BuyPlan,
+  MoodSlider,
+  WritingsGrid,
+} from "../../components/home";
 
 const HomeScreen = () => {
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Home!</Text>
-      </View>
+    <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={indexStyles.wrapper}
+      >
+        <Home />
+        <View style={indexStyles.titleContainer}>
+          <Text style={indexStyles.title}>
+            Good Afternoon
+            <Text style={[indexStyles.title, indexStyles.span]}>,</Text>
+          </Text>
+          <Text style={[indexStyles.title, indexStyles.titleBold]}>
+            Sarina!
+          </Text>
+        </View>
+        <MoodSlider />
+        <BookCard />
+        <WritingsGrid />
+        <BuyPlan />
+      </ScrollView>
     </ScrollView>
   );
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({
-  wrapper: {
-    backgroundColor: "#ffffff",
-  },
-  titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  title: {
-    fontSize: 24,
-    fontFamily: "Epilogue",
-    fontWeight: "regular",
-  },
-});

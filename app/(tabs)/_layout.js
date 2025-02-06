@@ -5,7 +5,7 @@ import {
   CameraIcon,
   CommunityIcon,
   HomeIcon,
-  ThoughIcon,
+  ThoughtIcon,
 } from "../../assets/icons";
 
 const TabLayout = () => {
@@ -77,8 +77,8 @@ const tabElEmenets = [
     icon: CameraIcon,
   },
   {
-    name: "though",
-    icon: ThoughIcon,
+    name: "thought",
+    icon: ThoughtIcon,
   },
   {
     name: "community",
