@@ -1,29 +1,11 @@
-import { StyleSheet, ScrollView, View, Text } from "react-native";
+import { Text, View } from "react-native";
 
 const Thought = () => {
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Thought!</Text>
-      </View>
-    </ScrollView>
+    <View>
+      <Text>Welcome to nothing.</Text>
+    </View>
   );
 };
 
 export default Thought;
-
-const styles = StyleSheet.create({
-  wrapper: {
-    backgroundColor: "#ffffff",
-  },
-  titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  title: {
-    fontSize: 24,
-    fontFamily: "Epilogue",
-    fontWeight: "regular",
-  },
-});
