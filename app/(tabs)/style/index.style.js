@@ -22,12 +22,11 @@ export const indexStyles = {
     fontSize: 26,
     color: "#371B34",
     fontFamily: "Epilogue",
-    fontWeight: 400,
   },
   span: {
-    fontWeight: 600,
+    fontFamily: "EpilogueSemiBold",
   },
   titleBold: {
-    fontWeight: 700,
+    fontFamily: "EpilogueBold",
   },
 };
