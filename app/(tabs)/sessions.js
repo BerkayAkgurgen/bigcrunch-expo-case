@@ -1,4 +1,4 @@
-import { SafeAreaView, ScrollView, View } from "react-native";
+import { ScrollView } from "react-native";
 import { Header } from "../../components";
 import SessionsList from "../../components/sessions/SessionsList";
 import UpcomingCard from "../../components/sessions/UpcomingCard";

@@ -1,29 +1,41 @@
-import { StyleSheet, ScrollView, View, Text } from "react-native";
+import { ScrollView, View } from "react-native";
+import { Header } from "../../components";
+import {
+  CategorySlider,
+  CreatePostButton,
+  UserPosts,
+} from "../../components/community";
+import { indexStyles } from "./style/index.style";
+import { useState } from "react";
 
 const Community = () => {
+  const [selectedCategory, setSelectedCategory] = useState(0);
+
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome Community!</Text>
+    <>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={indexStyles.appBackground}
+        contentContainerStyle={indexStyles.flexGrow}
+      >
+        <ScrollView
+          showsVerticalScrollIndicator={false}
+          style={indexStyles.wrapper}
+          contentContainerStyle={indexStyles.flexGrow}
+        >
+          <Header />
+          <CategorySlider
+            selectedCategory={selectedCategory}
+            setSelectedCategory={setSelectedCategory}
+          />
+          <UserPosts selectedCategory={selectedCategory} />
+        </ScrollView>
+      </ScrollView>
+      <View style={indexStyles.flex}>
+        <CreatePostButton />
       </View>
-    </ScrollView>
+    </>
   );
 };
 
 export default Community;
-
-const styles = StyleSheet.create({
-  wrapper: {
-    backgroundColor: "#ffffff",
-  },
-  titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  title: {
-    fontSize: 24,
-    fontFamily: "Epilogue",
-    fontWeight: "regular",
-  },
-});
