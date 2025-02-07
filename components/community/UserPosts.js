@@ -53,7 +53,7 @@ const UserPosts = ({ selectedCategory }) => {
       <View style={userPostsStyle.actionsContainer}>
         <Pressable
           style={userPostsStyle.actionItem}
-          onPress={() => handleLike(index)}
+          onPress={() => handleLike(item.id)}
         >
           <LikeIcon color={item.liked ? "#FE8235" : "#D6CCC6"} />
           <Text style={userPostsStyle.actionText}>{item.likeCount}</Text>
@@ -88,6 +88,7 @@ export default UserPosts;
 
 const postArray = [
   {
+    id: 0,
     name: "Coal Dingo",
     postContent:
       "Is there a therapy which can cure crossdressing & bdsm compulsion?",
@@ -98,6 +99,7 @@ const postArray = [
     categoryId: [0, 2],
   },
   {
+    id: 1,
     name: "Pigeon Car",
     postContent:
       "Is there a therapy which can cure crossdressing & bdsm compulsion?",
@@ -108,6 +110,7 @@ const postArray = [
     categoryId: [0, 1],
   },
   {
+    id: 2,
     name: "Pigeon Car",
     postContent:
       "Is there a therapy which can cure crossdressing & bdsm compulsion?",
@@ -118,6 +121,7 @@ const postArray = [
     categoryId: [0, 3],
   },
   {
+    id: 3,
     name: "Pigeon Car",
     postContent:
       "Is there a therapy which can cure crossdressing & bdsm compulsion?",
@@ -128,6 +132,7 @@ const postArray = [
     categoryId: [0, 2],
   },
   {
+    id: 4,
     name: "Pigeon Car",
     postContent:
       "Is there a therapy which can cure crossdressing & bdsm compulsion?",

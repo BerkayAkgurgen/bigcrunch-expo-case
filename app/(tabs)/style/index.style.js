@@ -12,6 +12,9 @@ export const indexStyles = {
   flex: {
     flex: 1,
   },
+  fullHeight: {
+    minHeight: "100%",
+  },
   appBackground: {
     backgroundColor: "#FBFBFB",
   },
