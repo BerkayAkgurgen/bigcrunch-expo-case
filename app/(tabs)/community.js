@@ -16,7 +16,7 @@ const Community = () => {
       <ScrollView
         showsVerticalScrollIndicator={false}
         style={indexStyles.appBackground}
-        contentContainerStyle={indexStyles.flexGrow}
+        contentContainerStyle={[indexStyles.flexGrow, indexStyles.fullHeight]}
       >
         <ScrollView
           showsVerticalScrollIndicator={false}
