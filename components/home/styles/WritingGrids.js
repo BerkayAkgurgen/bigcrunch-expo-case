@@ -34,5 +34,6 @@ export const writingGridsStyles = {
     flex: 1,
     fontFamily: "Epilogue",
     fontSize: 14,
+    color: "#707070", 
   },
 };
