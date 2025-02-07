@@ -10,7 +10,7 @@ export const categorySliderStyle = {
   },
   categorySliderWrapper: (isLast) => ({
     alignItems: "center",
-    paddingRight: isLast ? 24 : 0,
+    paddingRight: isLast ? 32 : 0,
     marginRight: 12,
   }),
   categorySliderContainer: (selected) => ({

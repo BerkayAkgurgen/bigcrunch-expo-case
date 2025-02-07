@@ -5,7 +5,7 @@ import {
   CreatePostButton,
   UserPosts,
 } from "../../components/community";
-import { indexStyles } from "./style/index.style";
+import { indexStyles } from "../../style/index.style";
 import { useState } from "react";
 
 const Community = () => {
