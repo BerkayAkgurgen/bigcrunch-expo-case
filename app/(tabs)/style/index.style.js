@@ -6,6 +6,12 @@ export const indexStyles = {
     paddingBottom: 0,
     flex: 1,
   },
+  flexGrow: {
+    flexGrow: 1,
+  },
+  flex: {
+    flex: 1,
+  },
   appBackground: {
     backgroundColor: "#FBFBFB",
   },
