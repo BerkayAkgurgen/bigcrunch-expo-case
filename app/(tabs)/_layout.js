@@ -7,6 +7,7 @@ import {
   HomeIcon,
   ThoughtIcon,
 } from "../../assets/icons";
+import { indexStyles } from "./style/index.style";
 
 const TabLayout = () => {
   return (
@@ -18,7 +19,7 @@ const TabLayout = () => {
           options={{
             tabBarIcon: ({ focused }) => (
               <>
-                <View style={focused ? dotStyle : null} />
+                <View style={focused ? indexStyles.dotStyle : null} />
                 <tab.icon focused={focused} />
               </>
             ),
@@ -26,7 +27,7 @@ const TabLayout = () => {
               <TouchableOpacity
                 {...props}
                 activeOpacity={1}
-                style={tabButtonStyle}
+                style={indexStyles.tabButtonStyle}
               />
             ),
           }}
@@ -41,30 +42,7 @@ export default TabLayout;
 const screenOptions = {
   tabBarShowLabel: false,
   headerShown: false,
-  tabBarStyle: {
-    height: 85,
-    padding: "11px auto",
-    position: "relative",
-    overflow: "hidden",
-  },
-};
-
-const tabButtonStyle = {
-  flex: 1,
-  alignItems: "center",
-  justifyContent: "center",
-};
-
-const dotStyle = {
-  width: 12,
-  height: 12,
-  backgroundColor: "#FE8235",
-  borderRadius: "50%",
-  position: "absolute",
-  top: "-100%",
-  marginTop: -6,
-  left: "50%",
-  transform: [{ translateX: "-50%" }],
+  tabBarStyle: indexStyles.tabBarStyle,
 };
 
 const tabElEmenets = [
