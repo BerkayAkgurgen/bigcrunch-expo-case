@@ -1,6 +1,6 @@
 import { ScrollView, View, Text } from "react-native";
 import { Header } from "../../components";
-import { indexStyles } from "./style/index.style";
+import { indexStyles } from "../../style/index.style";
 import {
   BookCard,
   BuyPlan,

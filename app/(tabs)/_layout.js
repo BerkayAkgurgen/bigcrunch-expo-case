@@ -7,7 +7,7 @@ import {
   HomeIcon,
   ThoughtIcon,
 } from "../../assets/icons";
-import { indexStyles } from "./style/index.style";
+import { indexStyles } from "../../style/index.style";
 
 const TabLayout = () => {
   return (
