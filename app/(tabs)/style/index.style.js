@@ -29,4 +29,26 @@ export const indexStyles = {
   titleBold: {
     fontFamily: "EpilogueBold",
   },
+  tabBarStyle: {
+    height: 85,
+    padding: "11px auto",
+    position: "relative",
+    overflow: "hidden",
+  },
+  tabButtonStyle: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  dotStyle: {
+    width: 12,
+    height: 12,
+    backgroundColor: "#FE8235",
+    borderRadius: "50%",
+    position: "absolute",
+    top: "-100%",
+    marginTop: -6,
+    left: "50%",
+    transform: [{ translateX: "-50%" }],
+  },
 };
