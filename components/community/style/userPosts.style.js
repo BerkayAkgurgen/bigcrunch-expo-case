@@ -25,9 +25,8 @@ export const userPostsStyle = {
     marginBottom: 4,
   },
   userName: {
-    fontFamily: "Rubik",
+    fontFamily: "RubikMedium",
     fontSize: 14,
-    fontWeight: "700",
     color: "#573926",
     marginTop: -2,
   },
@@ -38,13 +37,11 @@ export const userPostsStyle = {
   postDate: {
     fontFamily: "Rubik",
     fontSize: 12,
-    fontWeight: "400",
     color: "#707070",
   },
   postContent: {
     fontFamily: "Rubik",
     fontSize: 13,
-    fontWeight: "400",
     color: "#573926",
   },
   actionsContainer: {
@@ -59,7 +56,6 @@ export const userPostsStyle = {
     marginLeft: 6,
     fontFamily: "Rubik",
     fontSize: 13,
-    fontWeight: "400",
     color: "#707070",
   },
   shareIconContainer: {

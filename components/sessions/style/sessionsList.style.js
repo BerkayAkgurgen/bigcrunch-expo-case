@@ -15,7 +15,6 @@ export const sessionsListStyles = {
   title: {
     fontFamily: "Epilogue",
     fontSize: 18,
-    fontWeight: 400,
     marginRight: 6,
     color: "#371B34",
   },
@@ -36,15 +35,13 @@ export const sessionsListStyles = {
     marginLeft: 16,
   },
   sessionName: {
-    fontFamily: "Rubik",
+    fontFamily: "RubikMedium",
     fontSize: 14,
-    fontWeight: 700,
     color: "#573926",
   },
   sessionDesc: {
     fontFamily: "Rubik",
     fontSize: 12,
-    fontWeight: 400,
     color: "#573926",
   },
   sessionDetails: {
@@ -59,7 +56,6 @@ export const sessionsListStyles = {
   detailText: {
     fontFamily: "Rubik",
     fontSize: 12,
-    fontWeight: 400,
     color: "#707070",
     marginLeft: 6,
   },
@@ -76,15 +72,12 @@ export const sessionsListStyles = {
     borderRadius: 9,
   },
   actionButtonText: {
-    fontFamily: "Epilogue",
-    fontWeight: 700,
+    fontFamily: "EpilogueBold",
     fontSize: 14,
     color: "#FBFBFB",
   },
   secondButtonText: {
-    fontFamily: "Epilogue",
-    fontWeight: 700,
-    fontSize: 14,
+    fontFamily: "EpilogueBold",
     color: "#FE8235",
     verticalAlign: "middle",
   },

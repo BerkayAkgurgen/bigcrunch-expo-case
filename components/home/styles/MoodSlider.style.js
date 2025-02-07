@@ -4,7 +4,6 @@ export const moodSliderStyles = {
   },
   title: {
     fontFamily: "Epilogue",
-    fontWeight: 400,
     fontSize: 16,
     color: "#371B34",
     marginBottom: 20,
@@ -23,7 +22,6 @@ export const moodSliderStyles = {
   }),
   iconBoxSubtitle: {
     fontFamily: "Epilogue",
-    fontWeight: "400",
     fontSize: 12,
     color: "#828282",
     marginTop: 10,

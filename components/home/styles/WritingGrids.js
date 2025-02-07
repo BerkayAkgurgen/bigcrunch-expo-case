@@ -18,9 +18,8 @@ export const writingGridsStyles = {
   },
   cardTitle: {
     marginLeft: 15,
-    fontFamily: "Epilogue",
+    fontFamily: "EpilogueBold",
     fontSize: 14,
-    fontWeight: 700,
   },
   quoteWrapper: {
     marginTop: 16,
@@ -35,6 +34,5 @@ export const writingGridsStyles = {
     flex: 1,
     fontFamily: "Epilogue",
     fontSize: 14,
-    fontWeight: 400,
   },
 };

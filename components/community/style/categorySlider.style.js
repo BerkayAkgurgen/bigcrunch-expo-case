@@ -1,10 +1,9 @@
 export const categorySliderStyle = {
   categoriesTitle: {
     marginVertical: 20,
-    fontFamily: "Epilogue",
+    fontFamily: "EpilogueBold",
     color: "#371B34",
     fontSize: 18,
-    fontWeight: "700",
   },
   scrollSliderContainer: {
     flexDirection: "row",
@@ -24,7 +23,6 @@ export const categorySliderStyle = {
   categorySliderTitle: (selected) => ({
     fontSize: 14,
     fontFamily: "Epelogue",
-    fontWeight: "regular",
     color: selected ? "#FBFBFB" : "#8A8A8A",
     paddingHorizontal: 15,
     paddingVertical: 4,

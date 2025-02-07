@@ -26,6 +26,6 @@ export const headerStyles = {
   ringCount: {
     color: "#ffffff",
     fontSize: 12,
-    fontWeight: 400,
+    fontFamily: "Epilogue",
   },
 };
